@@ -6,5 +6,13 @@
     "express": "^4.17.1",
     "socket.io": "^4.1.2",
     "three": "^0.71.0"
+  },
+  "main": "app.js",
+  "scripts": {
+  	"start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iorisumi/eee-world"
   }
 }
