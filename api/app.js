@@ -56,9 +56,8 @@ io.on('connection', (socket)=>{
 	});
 });
 
-var port = process.env.API_URL || 8080;
-var ip_address = process.env.API_URL || '127.0.0.1';
+var port = process.env.PORT || 8080;
 
-http.listen(port, ip_address, ()=>{
-	console.log("listening on " + ip_address + ", server_port" + port);
+http.listen(port, ()=>{
+	console.log("server_port" + port);
 });
