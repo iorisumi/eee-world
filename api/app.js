@@ -1,8 +1,7 @@
 var app = require('express')();
 var http = require('http').Server(app);
 var io = require('socket.io')(http);
-console.log(require.resolve('server_world'));
-var world = require('server_world');
+var world = require('server_world.js');
 
 
 app.get('/', (req,res)=>{
