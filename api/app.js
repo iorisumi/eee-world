@@ -2,6 +2,7 @@ var app = require('express')();
 var http = require('http').Server(app);
 var io = require('socket.io')(http);
 var world = require('server_world');
+console.log(require.resolve('server_world'));
 
 app.get('/', (req,res)=>{
 	res.sendFile(__dirname + '/index.html');
