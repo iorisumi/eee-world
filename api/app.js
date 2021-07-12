@@ -5,7 +5,7 @@ var world = require('./server_world');
 
 
 app.get('/', (req,res)=>{
-	res.sendFile(__dirname + '../index.html');
+	res.sendFile('../index.html');
 });
 
 app.get('/js/client_world.js', (req,res)=>{
