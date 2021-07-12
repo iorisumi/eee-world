@@ -7,12 +7,9 @@
     "socket.io": "^4.1.2",
     "three": "^0.71.0"
   },
-  "main": "app.js",
   "scripts": {
-  	"start": "node app.js"
+    "start": "node app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/iorisumi/eee-world"
-  }
+  "main": "app.js",
+  "license":"UNLICENSED"
 }
