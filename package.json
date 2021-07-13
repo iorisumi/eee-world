@@ -9,7 +9,6 @@
   },
   "scripts": {
     "start": "node app.js",
-    "vercel-build": "node api/app.js"
   },
   "main": "/api/app.js",
   "license":"UNLICENSED"
