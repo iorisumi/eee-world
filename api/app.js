@@ -6,7 +6,7 @@ var world = require('./server_world');
 
 app.get('/', (req,res)=>{
 	console.log("ここまで大丈夫");
-	//res.sendFile(__dirname +　'/../index.html');
+	res.sendFile(__dirname +　'../index.html');
 });
 
 app.get('/js/client_world.js', (req,res)=>{
